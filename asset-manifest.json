@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.256f5459.css",
+    "main.js": "/static/js/main.cb87a8e5.js",
+    "static/media/social.PNG": "/static/media/social.55762e0234031ddb7e3c.PNG",
+    "static/media/ecommerce.PNG": "/static/media/ecommerce.626e2bd5a2cb8a1eb294.PNG",
+    "static/media/excelTwo.jpg": "/static/media/excelTwo.ca0dc91ea0acdfae3aac.jpg",
+    "static/media/excelOne.jpg": "/static/media/excelOne.5999c6af68694a2997c9.jpg",
+    "static/media/excelThree.jpg": "/static/media/excelThree.80927ee8fca685f95b9b.jpg",
+    "static/media/red-social.png": "/static/media/red-social.ad1095154ea476259bbe.png",
+    "static/media/comercio-electronico.png": "/static/media/comercio-electronico.3655fd6e65f7b5d88584.png",
+    "static/media/burbujas-de-chat.png": "/static/media/burbujas-de-chat.01e5747bbf9f8fe19225.png",
+    "static/media/chat.PNG": "/static/media/chat.7e08cb76199f448d3cab.PNG",
+    "static/media/sobresalir.png": "/static/media/sobresalir.f7ad53809690a1807fa6.png",
+    "index.html": "/index.html",
+    "static/media/angles-left-solid.svg": "/static/media/angles-left-solid.803cef6acc16a5b40be1b08dec775495.svg",
+    "main.256f5459.css.map": "/static/css/main.256f5459.css.map",
+    "main.cb87a8e5.js.map": "/static/js/main.cb87a8e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.256f5459.css",
+    "static/js/main.cb87a8e5.js"
+  ]
+}
