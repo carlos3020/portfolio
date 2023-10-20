@@ -24,9 +24,10 @@ const Hero = () => {
           Desarrollador Autodidacta y futuro egresado del SENA
         </motion.p>
         <Link
-        to="/skills"
+        to="https://drive.google.com/file/d/1S1hB1vKeT6GqZj2HvOLknv2fDodoAHBx/view?usp=share_link"
+        target='_blank'
         className='bg-red-600 px-8 py-4 text-white'
-        >Ver Skills</Link>
+        >Ver CV</Link>
       </div>
       <motion.img
       src={heroImg}
