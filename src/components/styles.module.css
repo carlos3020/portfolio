@@ -100,7 +100,7 @@
 
 @media (min-width:1280px) {
     .parent_backend[data-isOpen="true"] {
-        width: 80%;
+        width: 90%;
     }
 
     .parent_backend[data-isOpen="true"] p{

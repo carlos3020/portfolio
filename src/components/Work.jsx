@@ -1,14 +1,12 @@
-import React from 'react'
-import { useState, useContext, useRef, useEffect } from 'react'
+import { useState } from 'react'
 import transition from '../components/Transition'
 import { useMediaQuery } from 'react-responsive'
+import Spinner from '../assets/Spinner-1s-200px.svg'
 import {
-  AnimatePresence, motion, useMotionValue, useTransform, useAnimation
+  AnimatePresence, motion
 } from 'framer-motion'
-import styles from './styles.module.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import { EffectCards } from 'swiper/modules'
 import "swiper/css";
 import "swiper/css/effect-cards";
@@ -25,7 +23,7 @@ import todoApp from '../assets/responsive/check.png'
 const Card = ({ image, preview, github, name }) => {
   return (
     <div className='h-full w-full text-center mx-auto'>
-      <img src={image} alt="" className='h-72 mx-auto w-full xl:h-full' />
+      <img src={image ? image : Spinner} alt="" className='h-72 mx-auto w-full xl:h-full' />
       <div className='mb-8'>
         <h3 className='mb-8 mt-2'>{name}</h3>
         <Link className='px-4 py-4 bg-red-600 mr-8 rounded-xl' to={preview} target='_blank' >Preview</Link>

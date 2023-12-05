@@ -24,7 +24,7 @@ const Hero = () => {
           Desarrollador Autodidacta y futuro egresado del SENA
         </motion.p>
         <Link
-        to="https://drive.google.com/file/d/1S1hB1vKeT6GqZj2HvOLknv2fDodoAHBx/view?usp=share_link"
+        to="https://drive.google.com/file/d/1iS2FCuGyjnCyiKFtWdLZVDz0hXKFD9wf/view?usp=sharing"
         target='_blank'
         className='bg-red-600 px-8 py-4 text-white'
         >Ver CV</Link>
