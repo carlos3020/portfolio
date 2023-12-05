@@ -122,8 +122,8 @@ const PantallaGrande = () => {
                 key={item.label}
                 className={`${item === selectedTab ? "selected" : ""} list-none  mx-0 font-medium text-sm rounded-md rounded-b-none w-full py-2.5 px-16 realtive flex justify-between items-center flex-1 min-w-0 cursor-pointer text-center`}
                 onClick={() => setSelectedTab(item)}
-              >{
-                  `${item.label}`}
+              >
+                <h3>{item.label}</h3>
                 {item === selectedTab ? (
                   <motion.div className='absolute -border-b mx-0 h-[1px] bg-[#8855ff]' />
                 ) : null}
