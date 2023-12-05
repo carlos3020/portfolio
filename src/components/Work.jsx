@@ -23,7 +23,7 @@ import todoApp from '../assets/responsive/check.png'
 const Card = ({ image, preview, github, name }) => {
   return (
     <div className='h-full w-full text-center mx-auto'>
-      <img src={image ? image : Spinner} alt="" className='h-72 mx-auto w-full xl:h-full' />
+      <img src={image} alt="" className='h-72 mx-auto w-full xl:h-full' />
       <div className='mb-8'>
         <h3 className='mb-8 mt-2'>{name}</h3>
         <Link className='px-4 py-4 bg-red-600 mr-8 rounded-xl' to={preview} target='_blank' >Preview</Link>
@@ -35,15 +35,15 @@ const Card = ({ image, preview, github, name }) => {
 
 const projects = [
   {
-    content: <Card image={slide_image_3} preview={'https://amazon-plus.vercel.app/'} github={'https://github.com/carlos3020/amazon-plus'} name={'Amazon Plus'} />,
+    content: <Card image={slide_image_3 ? slide_image_3 : Spinner} preview={'https://amazon-plus.vercel.app/'} github={'https://github.com/carlos3020/amazon-plus'} name={'Amazon Plus'} />,
     label: "Amazon+"
   },
   {
-    content: <Card image={slide_image_2} preview={'https://talk-time.netlify.app/login'} github={'https://github.com/carlos3020/chat-app'} name={'Chat App'} />,
+    content: <Card image={slide_image_2 ? slide_image_2 : Spinner} preview={'https://talk-time.netlify.app/login'} github={'https://github.com/carlos3020/chat-app'} name={'Chat App'} />,
     label: "Chat App"
   },
   {
-    content: <Card image={slide_image_1} preview={'https://todo-app-b96a5.web.app/register'} github={'https://github.com/carlos3020/mern-todo-app'} name={'Todo App'} />,
+    content: <Card image={slide_image_1 ? slide_image_1 : Spinner} preview={'https://todo-app-b96a5.web.app/register'} github={'https://github.com/carlos3020/mern-todo-app'} name={'Todo App'} />,
     label: "Todo App"
   }
 
