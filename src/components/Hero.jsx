@@ -21,7 +21,7 @@ const Hero = () => {
           animate='show'
           exit='hidden'
         >
-          Desarrollador Autodidacta y futuro egresado del SENA
+          Desarrollador Autodidacta y egresado del SENA
         </motion.p>
         <Link
         to="https://drive.google.com/file/d/1Np4p-otBoyQVVzjk7E1SHLziArm4XoxO/view?usp=sharing"
